@@ -22,10 +22,10 @@ A flask website for the mock company LFS. This is one of my school projects.
     python -m pip install -r requirements.txt
     ```
 
-1. Host a local version of the site with gunicorn.
+1. Host a local version of the site.
     ```sh
-    gunicorn main:app -b 127.0.0.1:8000
+    flask run
     ```
-    > **NOTE:** The site must be run on port `8000` for the site to function. Please make sure this port is free prior to running the application.
-
-1. Navigate to `127.0.0.1:8000` in a web browser of your choice to see it in action.
+    > **NOTE:** If you are wanting to deploy the site, use: `gunicorn main:app -b 127.0.0.1:5000`
+    
+1. Navigate to `127.0.0.1:5000` in a web browser of your choice to see it in action.
