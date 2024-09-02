@@ -9,7 +9,7 @@ A flask website for the mock company LFS. This is one of my school projects.
 ### Setup Guide
 1. Clone the Github repository.
     ```sh
-    git clone https://github.com/itskegnh/lfs local-lfs
+    git clone https://github.com/williamjaackson/lfs local-lfs
     ```
 
 1. Navigate to the project directory.
